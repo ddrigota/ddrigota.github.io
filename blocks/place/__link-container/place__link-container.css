@@ -1,0 +1,12 @@
+.place__link-container {
+  display: flex;
+  flex-direction: column;
+  place-self: end start;
+  gap: 12px;
+}
+
+@media screen and (max-width: 500px) {
+  .place__link-container {
+    padding: 0 16px;
+  }
+}

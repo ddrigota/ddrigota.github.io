@@ -1,0 +1,10 @@
+.header__logo-container {
+  object-fit: cover;
+  transition: opacity .5s ease;
+}
+
+.header__logo-container:hover {
+  opacity: 0.8;
+}
+
+

@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 50px; /* сохраняет отступ даже при экстремальном сжатии по горизонтали */
+  box-sizing: border-box;
+}
