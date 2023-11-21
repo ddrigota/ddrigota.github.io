@@ -1,6 +1,5 @@
-.footer__copyright {
+.profile__bio {
   margin: 0;
-  color: #545454;
   font-weight: 400;
   font-size: clamp(14px, 3vw, 18px);
 }

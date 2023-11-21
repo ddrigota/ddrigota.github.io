@@ -1,7 +1,19 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: end;
-  gap: 50px; /* сохраняет отступ даже при экстремальном сжатии по горизонтали */
-  box-sizing: border-box;
+  max-width: 880px;
+  margin: 0 auto;
+  border-block-end: 1px solid rgb(84 84 84 / 0.7);
+  padding: 45px 0 37px;
+}
+
+@media (max-width: 880px) {
+  .header {
+    padding-inline-start: 27px;
+  }
+}
+
+@media (max-width: 440px) {
+  .header {
+    padding-block-start: 28px;
+    padding-block-end: 28px;
+  }
 }
